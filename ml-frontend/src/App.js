@@ -9,6 +9,7 @@ function App() {
     });
     console.log(res.data.data);
     alert(res.data.data);
+    alert("this mail is spam");
   }
   return (
     <div className="bg-gradient-to-br h-screen from-[#00C9FF] to-[#92FE9D] font-kanit ">
